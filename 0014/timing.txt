@@ -1,0 +1,29 @@
+Timings for < 1000,10000,100000,1000000
+
+
+Bryans-MacBook-Pro:0014 bakeith$ time python 0014.py 
+max chain length = 179
+
+real	0m0.053s
+user	0m0.044s
+sys	0m0.008s
+Bryans-MacBook-Pro:0014 bakeith$ time python 0014.py 
+max chain length = 262
+
+real	0m0.367s
+user	0m0.356s
+sys	0m0.009s
+Bryans-MacBook-Pro:0014 bakeith$ time python 0014.py 
+max chain length = 351
+
+real	0m4.311s
+user	0m4.292s
+sys	0m0.012s
+Bryans-MacBook-Pro:0014 bakeith$ time python 0014.py 
+max chain length = 525
+
+real	0m52.334s
+user	0m52.260s
+sys	0m0.050s
+Bryans-MacBook-Pro:0014 bakeith$ vim timing.txt
+
